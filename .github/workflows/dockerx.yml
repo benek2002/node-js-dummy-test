@@ -3,11 +3,11 @@ name: Docker Deployment
 on:
   push:
     branches:
-      - "release"
+      - "master"
 
   pull_request:
     branches:
-      - "release"
+      - "master"
 
 jobs:
   dockerx:
